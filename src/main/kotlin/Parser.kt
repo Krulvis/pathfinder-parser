@@ -23,7 +23,7 @@ class Parser {
             val data = InputStreamReader(it.inputStream()).readText()
             println(data)
 
-            val url = "http://localhost/api/parse"
+            val url = "http://dnd.test/api/parse"
             val obj = URL(url)
             val con = obj.openConnection() as HttpURLConnection
 
